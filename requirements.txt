@@ -1,0 +1,12 @@
+# Core prototype (mock mode) — install this to run the app right now
+gradio>=4.0
+Pillow>=10.0
+numpy>=1.24
+
+# Needed only once you switch to real inference (Phase 2, on Colab/GPU)
+# torch>=2.1
+# transformers>=4.40
+# accelerate>=0.30
+# peft>=0.10          # for LoRA fine-tuning
+# einops               # required by some Florence-2 ops
+# timm                  # required by Florence-2 vision backbone
